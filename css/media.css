@@ -1,0 +1,305 @@
+@media (max-width: 1920px) {
+  header {
+    width: 100%;
+    padding: 26px 12%;
+  }
+
+  .fa-bars-staggered {
+    display: none;
+
+  }
+
+
+}
+
+
+@media (max-width: 1790px) {
+
+  header {
+    width: 100%;
+    padding: 26px 15%;
+
+  }
+
+  .latest_products_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .latest_products_image {
+    display: flex;
+    flex-wrap: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 315px;
+  }
+
+  .latest_products_image1,
+  .latest_products_image2 {
+    order: 1;
+  }
+
+  .latest_products_image3,
+  .latest_products_image4 {
+    order: 2;
+  }
+
+
+
+}
+
+@media (max-width: 1750px) {
+
+
+
+  .section_p {
+    font-size: 20px;
+  }
+
+  .what_is_artistry_div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .what_is_artistry_text_div1,
+  .what_is_artistry_text_div2 {
+    order: 1;
+  }
+
+  .what_is_artistry_text_div3 {
+    order: 2;
+  }
+
+
+  .artworkCards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+  }
+
+  .artworkCard {
+    width: 80%;
+  }
+
+
+}
+
+@media (max-width: 1550px) {
+
+  .section3_div1,
+  .section3_div2 {
+    flex-direction: column;
+    gap: 20px;
+
+  }
+
+  .section3_image {
+    width: 100%;
+    gap: 20px;
+  }
+
+
+
+}
+
+@media (max-width: 1350px) {
+  .header_nav {
+    display: none;
+
+  }
+
+  .fa-bars-staggered {
+    display: block;
+  }
+
+  .section1_cards {
+    flex-wrap: wrap;
+
+  }
+
+
+  .card {
+    width: 35%;
+  }
+
+
+
+}
+
+@media (max-width: 1240px) {
+  .text_box {
+    font-size: 18px;
+  }
+
+  .section_h {
+    font-size: 35px;
+
+  }
+
+  .section_p {
+    font-size: 21px;
+  }
+
+  .what_is_artistry_div {
+    flex-direction: column;
+    vertical-align: middle;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  .contact_banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+
+
+
+}
+
+@media (max-width: 1150px) {
+
+
+  .section5_search {
+    width: 400px;
+    height: 50px;
+  }
+
+  .email_text {
+    padding: 15px 79px 14px 9px;
+  }
+
+  .section5_container {
+    top: 140px;
+  }
+
+  .footer_main_div {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .artworkCards {
+    display: -ms-inline-grid;
+    grid-template-columns: auto auto;
+  }
+
+  .artworkCard {
+    width: 60%;
+  }
+  .contact_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 ;
+}
+
+.get_in_touch_div{
+  scale: .8;
+}
+
+
+}
+
+@media (max-width: 950) {
+  .section5_search {
+    width: 375px;
+    height: 50px;
+  }
+
+  .section5_title {
+    font-size: 32px;
+  }
+
+  .search_div {
+    width: 35%;
+    height: 40px;
+  }
+
+  .section5_image {
+    width: 100%;
+  }
+
+  .artworkCards {
+
+    flex-direction: column;
+    vertical-align: middle;
+    /* რატომღაც არ მუშაობს */}
+
+    .contact_section_title {
+      font-size: 2rem;
+    }
+
+
+    .contact_section_div2 {
+      width: 100%;
+     flex-direction: column;
+     /* არვიცი რატო არ შორდება  */
+      gap: 24px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    iframe {
+      width: 100%;
+    }
+
+
+  }
+
+
+  @media (max-width: 600) {
+    .header_logo {
+      flex-direction: column;
+      font-size: 1.5rem;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+    }
+
+    .artworkCard {
+      width: 80%;
+    }
+    .get_in_touch_div{
+      scale: .7;
+  }
+
+
+  }
+
+
+
+
+
+  @media (max-width:480px) {
+
+    header {
+      width: 100%;
+
+    }
+
+    .logo {
+      font-size: 1 rem;
+    }
+
+    .what_is_artistry_div {
+      width: 90%;
+    }
+
+
+
+
+
+
+
+
+
+  }
